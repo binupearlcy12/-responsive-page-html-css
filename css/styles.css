@@ -1,0 +1,597 @@
+ul,
+ol {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body header div {
+  display: inline-block;
+  padding: 10px 30px 10px 0px;
+}
+
+body header div .header-malelogo {
+  width: 20px;
+}
+
+body header div .header-welcome {
+  font-size: 20px;
+}
+
+body header div .header-karthrin {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body header ul {
+  width: 19%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 60px;
+}
+
+body header ul .header-ad {
+  width: 51px;
+  height: 44px;
+}
+
+body header ul .header-logo1 {
+  background: url(images/top-bar.png) -60px 0;
+}
+
+body header ul .header-logo2 {
+  background: url(images/top-bar.png) -109px 0;
+}
+
+body header ul .header-logo3 {
+  background: url(images/top-bar.png) -156px 0;
+}
+
+body header ul .header-logo4 {
+  background: url(images/top-bar.png) -206px 0;
+}
+
+body header ul .header-logo5 {
+  background: url(images/top-bar.png) -253px 0;
+}
+
+body header ul .header-logo6 {
+  background: url(images/top-bar.png) -305px 0;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e5e5e5;
+}
+
+body nav .nav-section-loan-number {
+  padding: 10px 0px 10px 0px;
+}
+
+body nav .nav-section-loan-number label {
+  margin: 10px;
+  font-size: 25px;
+}
+
+body nav .nav-section-loan-number select {
+  display: block;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+  background-color: #e5e5e5;
+}
+
+body nav ul {
+  background-color: #fafafa;
+  border-radius: 5px;
+  width: 28%;
+  margin: 5px;
+  padding: 15px;
+}
+
+body nav ul label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body nav ul span {
+  float: right;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main aside {
+  background-color: #383838;
+  color: white;
+  width: 17%;
+}
+
+body main aside div {
+  padding: 10px 7px 0px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main aside div div .aside-dropdown {
+  width: 15px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+body main aside .aside-menu {
+  float: right;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+body main .aside-list li {
+  padding: 15px 15px 15px 10px;
+  clear: both;
+}
+
+body main .aside-list li .aside-img {
+  width: 20px;
+  margin-right: 10px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+body main .aside-list li label {
+  vertical-align: middle;
+}
+
+body main .aside-list li:hover {
+  background-color: #01747b;
+  border-left: 5px solid #d5a225;
+}
+
+section {
+  width: 83%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+section header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+section header .section-header-left button {
+  padding-bottom: 5px;
+  border-radius: none;
+  background-color: white;
+}
+
+section header .section-header-left button:hover {
+  border-top: 3px solid #d5a225;
+  border-bottom: 3px solid white;
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  padding: 10px;
+}
+
+section header .section-header-right a {
+  font-weight: bold;
+  color: #6da0c7;
+}
+
+section section {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+}
+
+section section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 6px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 20px;
+  clear: both;
+}
+
+section section ul li {
+  display: inline-block;
+}
+
+section section ul li img {
+  width: 20px;
+}
+
+section section ul li label {
+  font-size: 20px;
+}
+
+section section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  clear: both;
+}
+
+section section div table {
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  margin: 10px;
+  width: 48%;
+}
+
+section section div table thead th {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px;
+  background-color: #e5e5e5;
+  text-align: left;
+}
+
+section section div table tbody {
+  padding: 20px;
+}
+
+section section div table tbody tr {
+  border-bottom: 1px solid black;
+}
+
+section section div table tbody tr .section-transferfunds-button {
+  float: left;
+  background-color: #ebebeb;
+  color: #6da0c7;
+  width: 150px;
+  padding: 10px 0px 10px 0px;
+}
+
+section section div table tbody tr .section-makepayement-button {
+  float: right;
+  background-color: #00747a;
+  color: white;
+  width: 150px;
+  padding: 10px 0px 10px 0px;
+}
+
+section section div table tbody tr .section-note {
+  color: grey;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 2.0;
+  font-style: italic;
+}
+
+section section div table tbody td {
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 20px;
+}
+
+section section div table tbody td:last-child() {
+  border-bottom: none;
+}
+
+section section div table tbody td:nth-child(2) {
+  text-align: right;
+  font-weight: bold;
+}
+
+ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+ol li label {
+  font-size: 20px;
+}
+
+ol li img {
+  width: 30px;
+}
+
+ol li:nth-child(1) {
+  font-weight: bold;
+}
+
+.section-button {
+  float: right;
+}
+
+.section-button .section-transferfunds-button {
+  float: right;
+  background-color: #ebebeb;
+  color: #6da0c7;
+  margin: 20px;
+  width: 150px;
+  padding: 10px 0px 10px 0px;
+}
+
+.section-button .section-makepayement-button {
+  float: right;
+  background-color: #00747a;
+  color: white;
+  width: 150px;
+  margin: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+footer {
+  color: white;
+  background-color: #2e2e2e;
+  border-top: 3px solid #d5a225;
+  clear: both;
+  padding: 20px;
+  overflow: auto;
+  font-size: 10px;
+}
+
+footer ul {
+  clear: both;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul li label {
+  font-size: 20px;
+}
+
+footer ul li:after {
+  content: "|";
+  padding: 10px;
+}
+
+footer span {
+  float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  body header div {
+    padding: 0px;
+  }
+  body header div .header-welcome,
+  body header div .header-karthrin {
+    font-size: 12px;
+  }
+  body header .header-ad-img {
+    height: 33px;
+    margin: 5px 0px;
+  }
+  body header ul {
+    width: 23%;
+    margin: 0px;
+  }
+  body nav ul label {
+    font-size: 12px;
+  }
+  body nav ul span,
+  body nav ul p {
+    font-size: 14px;
+  }
+  body main aside {
+    width: 20%;
+  }
+  body main aside .aside-list li {
+    padding: 15px 0px;
+  }
+  body main aside .aside-list li label {
+    font-size: 15px;
+  }
+  body footer ul li:after {
+    padding-left: 9px;
+  }
+  body section div table tbody td {
+    padding: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body header .header-logo-image {
+    height: 39px;
+  }
+  body header ul {
+    width: 56%;
+  }
+  body header .header-ad-img {
+    height: 24px;
+    margin: 14px 0px;
+  }
+  body nav .nav-section-loan-number label {
+    font-size: 14px;
+    margin: 0px;
+    padding: 20px 5px;
+  }
+  body nav .nav-section-loan-number select {
+    width: 100px;
+    font-size: 15px;
+  }
+  body nav ul p {
+    font-size: 10px;
+  }
+  body nav ul span,
+  body nav ul label {
+    font-size: 8px;
+    margin: 4px;
+  }
+  body main aside {
+    font-size: 14px;
+  }
+  body main aside div {
+    padding-top: 10px 0px 0px 0px;
+  }
+  body main aside .aside-list li {
+    text-align: center;
+  }
+  body main aside .aside-list li label {
+    font-size: 14px;
+  }
+  body main aside .aside-list li .aside-img {
+    display: none;
+  }
+  body main section table tbody tr .section-makepayement-button {
+    width: 100px;
+    padding: 0px;
+  }
+  body main section table tbody tr .section-transferfunds-button {
+    width: 100px;
+    padding: 13px 0px 13px 0px;
+  }
+  body footer span {
+    font-size: 10px;
+  }
+  body footer ul li {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body header {
+    padding: 0px;
+  }
+  body header .header-logo-image {
+    width: 105px;
+    height: 60px;
+  }
+  body header .header-ad-img {
+    display: none;
+  }
+  body header div {
+    padding: 3px;
+  }
+  body header div .header-welcome,
+  body header div .header-karthrin {
+    font-size: 10px;
+  }
+  body header div .header-malelogo {
+    height: 14px;
+    width: 13px;
+  }
+  body header .header-ad {
+    width: 66%;
+  }
+  body nav .nav-section-loan-number {
+    width: 30px;
+  }
+  body nav .nav-section-loan-number label {
+    font-size: 9px;
+  }
+  body nav .nav-section-loan-number select {
+    width: 20px;
+  }
+  body nav ul {
+    padding: 0px;
+  }
+  body nav ul li label {
+    margin: 0px;
+  }
+  body nav ul li span {
+    margin: 0px;
+  }
+  body main aside {
+    font-size: 12px;
+  }
+  body main aside div div span {
+    display: none;
+  }
+  body main aside .aside-list li label {
+    display: none;
+  }
+  body main aside .aside-list li .aside-img {
+    width: 25px;
+    margin-left: 18px;
+    display: block;
+  }
+  body main aside .aside-list li:hover label {
+    display: block;
+  }
+  body main section ul li label {
+    font-size: 8px;
+  }
+  body main section ul li p {
+    font-size: 6px;
+  }
+  body main section div {
+    display: block;
+  }
+  body main section div table {
+    width: 100%;
+    margin: 0px;
+  }
+  body main section ol {
+    padding: 10px;
+  }
+  body main section ol li label {
+    font-size: 10px;
+  }
+  body main section ol li p {
+    font-size: 10px;
+  }
+  body main section ol li:nth-child(1) {
+    font-size: 10px;
+    margin: 10px 0px;
+  }
+  body footer {
+    overflow: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
